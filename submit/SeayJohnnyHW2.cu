@@ -1,4 +1,4 @@
-// nvcc SeayJohnnyHW2.cu -o SeayJohnnyHW2; ./'SeayJohnnyHW2'
+// nvcc SeayJohnnyHW1.cu -o SeayJohnnyHW1; ./'SeayJohnnyHW1'
 
 #include <sys/time.h>
 #include <stdio.h>
@@ -38,7 +38,7 @@ int main ( void ) {
     dimBlock.z = 1;
 
     //Blocks in a grid
-    dimGrid.x = ( (N-1)/maxThreads ) + 1;;
+    dimGrid.x = ( (N-1)/maxThreads ) + 1;
     dimGrid.y = 1;
     dimGrid.z = 1;
 

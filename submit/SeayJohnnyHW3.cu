@@ -1,4 +1,4 @@
-//nvcc SeayJohnnyHW3.cu -o temp -lglut -lGL -lm
+//nvcc fractalSimpleCPU.cu -o temp -lglut -lGL -lm
 
 #include <GL/glut.h>
 #include <stdlib.h>
